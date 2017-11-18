@@ -1,0 +1,39 @@
+@import '../css/base.scss';
+
+$primary-color: #abcdef;
+$secondary-color: #986533;
+$link-color: #ab45de;
+
+body {
+  background: #eeecde;
+  color: $secondary-color;
+  font: 18px/1.5 Roboto, Helvetica, Arial, sans-serif;
+}
+
+h1,h2,h3 {
+  color: $primary-color;
+  font-family: 'Times New Roman';
+}
+
+#main-container-background {
+  background-image: url(../images/bg_header.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top;
+}
+
+.container {
+  text-align: center;
+}
+
+nav ul li a {
+  color:  $link-color;
+  &:hover {
+    color: darken($link-color,20%);
+  }
+}
+
+
+.wedding-title {
+  font-family: 'Times New Roman';
+}
